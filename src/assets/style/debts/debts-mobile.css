@@ -1,0 +1,48 @@
+@media (min-width: 0px) and (max-width: 650px) {
+  .debts__list {
+    max-width: 340px;
+    padding: 25px 30px 40px 15px;
+
+    box-shadow: 7.41701px 9.69917px 5.13485px -5.13485px rgba(106, 230, 48, 0.41);
+    border-radius: 14px;
+
+    background: linear-gradient(104.27deg, rgba(204, 255, 0, 0.2) 11.41%, rgba(213, 255, 45, 0) 113.39%), #80CF5B;
+  }
+
+  .debts__item {
+    display: flex;
+    align-items: center;
+
+    padding: 0;
+    margin-bottom: 15px;
+
+    text-align: left;
+
+    background-color: transparent;
+  }
+
+  .debts__item__stage {
+    display: block;
+
+    font-family: 'Adobe Gurmukhi';
+    font-size: 64px;
+    line-height: 50px;
+    text-shadow: 0px 0px 22px rgba(91, 91, 91, 0.08);
+    color: transparent;
+
+    background: linear-gradient(180deg, rgba(205, 255, 7, 0.7) 0%, rgba(205, 255, 7, 0) 100%),
+                linear-gradient(104.27deg, rgba(204, 255, 0, 0.2) 11.41%, rgba(213, 255, 45, 0) 113.39%),
+                linear-gradient(0deg, #8ADD63, #8ADD63);
+    background-clip: text;
+  }
+
+  .debts__item__text {
+    width: 235px;
+    padding: 12px;
+    border-radius: 13px;
+
+    font-size: 12px;
+
+    background-color: #F1F1F1;
+  }
+}

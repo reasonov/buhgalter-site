@@ -1,0 +1,114 @@
+.about__caption {
+  display: block;
+
+  width: 225px;
+  margin: 150px auto;
+}
+
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1030px;
+  padding: 0 205px;
+  margin: 0 auto;
+  margin-bottom: 250px;
+}
+
+.about__contacts__caption {
+  font-family: 'Geometria', Arial, sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.about__contacts__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  width: 400px;
+  margin-top: 30px;
+}
+
+.about__contacts__item {
+  width: 175px;
+  margin-top: 40px;
+}
+
+.about__contacts__item1 {
+  width: 140px;
+}
+
+.about__contacts__block {
+  display: block;
+  width: 124px;
+  height: 124px;
+  margin-bottom: 25px;
+
+  border-radius: 25px;
+
+  background: linear-gradient(104.27deg, rgba(204, 255, 0, 0.2) 11.41%, rgba(213, 255, 45, 0) 113.39%), #80CF5B;
+}
+
+.about__contacts__text {
+  font-family: 'Geometria', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.about__contacts__text1 {
+  max-width: 110px;
+}
+
+.about__props {
+  position: relative;
+  width: 504px;
+  padding: 60px 35px;
+  padding-right: 140px;
+  margin-top: 25px;
+
+  box-sizing: border-box;
+  box-shadow: inset 2.6044px 3.47253px 12.1538px rgba(0, 0, 0, 0.01);
+  border-radius: 22px;
+
+  background: #F1F1F1;
+}
+
+.about__props::after {
+  content: '';
+  position: absolute;
+  top: -100px;
+  right: -205px;
+  z-index: -1;
+
+  width: 590px;
+  height: 712px;
+
+  background-image: url('../../images/about-background.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.about__props__caption {
+  margin-bottom: 20px;
+
+  font-family: 'Geometria', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.about__props__text {
+  margin-bottom: 25px;
+
+  font-family: 'Geometria', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.about__props__text4 {
+  margin-bottom: 0px;
+}
+
+.about__props__stroke {
+  display: block;
+}

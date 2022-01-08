@@ -1,0 +1,13 @@
+@media (min-width: 650px) and (max-width: 1000px) {
+  .debts__list {
+    max-width: 360px;
+    padding: 40px;
+  }
+
+  .debts__item {
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    font-size: 12px;
+  }
+}

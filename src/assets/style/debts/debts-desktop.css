@@ -1,0 +1,31 @@
+.debts__list {
+  max-width: 922px;
+  padding: 40px 100px;
+  margin: 0 auto;
+
+  box-sizing: border-box;
+  box-shadow: 13px 17px 9px -9px rgba(106, 230, 48, 0.41);
+  border-radius: 25px;
+
+  background: linear-gradient(104.27deg, rgba(204, 255, 0, 0.2) 11.41%, rgba(213, 255, 45, 0) 113.39%), #80CF5B;
+}
+
+.debts__item {
+  width: 100%;
+  padding: 10px 45px;
+  margin-bottom: 30px;
+
+  box-sizing: border-box;
+  box-shadow: inset 3px 4px 14px rgba(0, 0, 0, 0.01);
+  border-radius: 25px;
+
+  font-family: 'Geometria', Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+
+  background-color: #fff;
+}
+
+.debts__item__stage {
+  display: none;
+}

@@ -1,0 +1,45 @@
+@media (min-width: 0px) and (max-width: 650px) {
+  .liqudation__wrapper {
+    align-items: center;
+    flex-direction: column;
+
+    max-width: 420px;
+    padding: 0 40px;
+    margin-bottom: 60px;
+  }
+
+  .liqudation__list {
+    width: 285px;
+    padding: 25px;
+    margin-bottom: 30px;
+  }
+
+  .liqudation__item__button {
+    height: 25px;
+    padding: 0 15px;
+    border-radius: 15px;
+
+    font-size: 12px;
+  }
+
+  .liqudation__list__text {
+    margin: 15px 0;
+
+    font-size: 12px;
+    line-height: normal;
+  }
+
+  .liqudation__calculator {
+    max-width: 375px;
+    margin-top: 0px;
+    margin-bottom: 115px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 420px) {
+  .liqudation__calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+}

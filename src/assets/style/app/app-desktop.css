@@ -1,0 +1,253 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #000;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  outline: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 1240px;
+  height: 105px;
+  box-sizing: border-box;
+
+  padding: 0px 100px;
+  margin: 0 auto;
+}
+
+.header__top--mobile {
+  display: none;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: 55px;
+}
+
+.main-logo {
+  font-size: 24px;
+}
+
+.main-description {
+  max-width: 255px;
+
+  font-family: 'Geometria', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__phone {
+  font-family: 'Geometria', Arial, sans-serif;
+  font-size: 33px;
+  color: #000;
+}
+
+.header__open-popup {
+  width: 232px;
+  height: 55px;
+  margin-left: 35px;
+
+  border-radius: 25px;
+
+  font-family: 'Geometria', Arial, sans-serif;
+  font-size: 16px;
+  color: #000;
+
+  background: linear-gradient(104.27deg, rgba(204, 255, 0, 0.2) 11.41%, rgba(213, 255, 45, 0) 113.39%), #80CF5B;
+  box-shadow: 13px 17px 9px -9px rgba(106, 230, 48, 0.41);
+}
+
+.header__nav {
+  width: 100%;
+  max-width: 1020px;
+  padding: 0 210px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.header__nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav__open {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.header__nav__item {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.header__nav__li {
+  position: relative;
+}
+
+.header__nav__item--green {
+  color: #6DAD4F;
+}
+
+.nav__pages__list {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  z-index: 5;
+
+  width: 293px;
+  padding: 29px;
+
+  box-sizing: border-box;
+  border-radius: 25px;
+
+  background: linear-gradient(104.27deg, rgba(204, 255, 0, 0.2) 11.41%, rgba(213, 255, 45, 0) 113.39%), #80CF5B;
+}
+
+.nav__pages__list li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.nav__pages__item {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+footer {
+  border-radius: 25px 25px 0 0;
+
+  background: linear-gradient(104.27deg, rgba(204, 255, 0, 0.2) 11.41%, rgba(213, 255, 45, 0) 113.39%), #80CF5B;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1240px;
+  height: 200px;
+  padding: 0 100px;
+  margin: 0 auto;
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.footer__column__caption {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footer__column__text {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 12px;
+}
+
+.footer__column__text0 {
+  margin-bottom: 30px;
+}
+
+.footer__nav__item {
+  display: block;
+  margin-bottom: 20px;
+
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footer__nav__item--last {
+  margin: 0;
+}
+
+.footer__open-popup {
+  width: 217px;
+  height: 55px;
+
+  border-radius: 25px;
+
+  font-family: 'Geometria', Arial, sans-serif;
+  font-size: 16px;
+
+  background: linear-gradient(142.1deg, #00FFFF -33.87%, #00FFFF -33.85%, rgba(0, 255, 255, 0.55) 86.64%), #80CF5B;
+}
+
+.footer__site-maker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 40px;
+
+  font-family: 'Geometria', Arial, sans-serif;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #fff;
+
+  background-color: #000;
+}
+
+.background-white {
+  background: #fff!important;
+}

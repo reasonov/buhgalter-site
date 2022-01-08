@@ -1,0 +1,103 @@
+@media (min-width: 0px) and (max-width: 650px) {
+
+  .failure__list-wrapper {
+    position: relative;
+
+    max-width: 340px;
+    padding: 25px 30px 40px 15px;
+    margin: 0 auto;
+
+    box-shadow: 7.41701px 9.69917px 5.13485px -5.13485px rgba(106, 230, 48, 0.41);
+    border-radius: 14px;
+
+    background: linear-gradient(104.27deg, rgba(204, 255, 0, 0.2) 11.41%, rgba(213, 255, 45, 0) 113.39%), #80CF5B;
+  }
+
+  .failure__list {
+    max-width: 340px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .failure__list::before {
+    display: none;
+  }
+
+  .failure__list::after {
+    display: none;
+  }
+
+  .failure__list--hidden {
+    max-height: 390px;
+    overflow: hidden;
+  }
+
+  .failure__more__wrapper {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 340px;
+    width: 100%;
+    height: 40px;
+
+    transform: translateX(-50%);
+
+    background: linear-gradient(104.27deg, rgba(204, 255, 0, 0.2) 11.41%, rgba(213, 255, 45, 0) 113.39%), #80CF5B
+  }
+
+  .failure__more__icon {
+
+  }
+
+  .more__icon--active {
+    transform: translateX(-50%) rotateZ(180deg);
+  }
+
+  .failure__item {
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .failure__item--mobile {
+    margin-bottom: 50px;
+  }
+
+  .failure__item__stage {
+    display: none;
+  }
+
+  .failure__item__stage--mobile {
+    display: block;
+
+    font-family: 'Adobe Gurmukhi';
+    font-size: 64px;
+    text-shadow: 0px 0px 22px rgba(91, 91, 91, 0.08);
+    color: transparent;
+
+    background: linear-gradient(180deg, rgba(205, 255, 7, 0.7) 0%, rgba(205, 255, 7, 0) 100%),
+                linear-gradient(104.27deg, rgba(204, 255, 0, 0.2) 11.41%, rgba(213, 255, 45, 0) 113.39%),
+                linear-gradient(0deg, #8ADD63, #8ADD63);
+    background-clip: text;
+  }
+
+  .failure__item__text {
+    width: 235px;
+    padding: 12px;
+
+    font-size: 12px;
+  }
+
+  .failure__item__time {
+    display: none;
+  }
+
+  .failure__calculator  {
+    margin: 150px auto;
+    margin-bottom: 110px;
+  }
+}

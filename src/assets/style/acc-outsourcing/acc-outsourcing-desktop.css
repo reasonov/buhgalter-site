@@ -1,0 +1,9 @@
+.acc-outsourcing__calculator {
+  margin: 200px auto;
+}
+
+@media (min-width: 0px) and (max-width: 650px) {
+  .acc-outsourcing__calculator {
+    margin: 140px auto;
+  }
+}

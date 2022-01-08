@@ -1,0 +1,390 @@
+@media (min-width: 1000px) and (max-width: 1460px) {
+  .home__intro {
+    max-width: 1000px;
+    padding: 0px 80px;
+  }
+
+  .home__intro__top {
+    padding-bottom: 125px;
+  }
+
+  .home__intro__slider {
+    width: 450px;
+  }
+
+  .home__intro__caption {
+    width: 400px;
+
+    font-size: 35px;
+  }
+
+  .home__slider__item {
+    width: 400px;
+    min-height: 70px;
+
+    font-size: 18px;
+  }
+
+  .home__intro__email {
+    width: 250px;
+  }
+
+  .home__intro__request__submit {
+    width: 175px;
+  }
+
+  .home__intro__image0 {
+    width: 520px;
+    height: 330px;
+    right: -70px;
+
+    background-image: url('../../images/home-devices-desktop.png')
+  }
+
+  .home__intro__image1 {
+    bottom: 65px;
+    left: 0px;
+
+    width: 305px;
+    height: 490px;
+  }
+
+  .home__intro__image__background0 {
+    width: 400px;
+    height: 100px;
+    border-radius: 40px;
+  }
+
+  .home__intro__image__background1 {
+    top: 240px;
+    left: -200px;
+
+    width: 600px;
+    height: 100px;
+    border-radius: 40px;
+  }
+
+  .home__intro__image__background2 {
+    top: 430px;
+
+    width: 515px;
+    height: 100px;
+    border-radius: 40px;
+  }
+
+  .home__intro__info {
+    max-width: 480px;
+  }
+
+  .home__intro__info__caption {
+    margin-bottom: 25px;
+
+    font-size: 27px;
+  }
+
+  .home__intro__info__text {
+    font-size: 17px;
+  }
+
+  .home__pluses {
+    padding: 0px 80px;
+    padding-top: 100px;
+  }
+
+  .pluses__caption {
+    font-size: 33px;
+  }
+
+  .pluses__item {
+    width: 255px;
+    padding: 25px;
+    padding-top: 85px;
+  }
+
+  .pluses__togglers-wrapper {
+    display: none;
+  }
+
+  .home__statistic {
+    max-width: 1300px;
+    padding: 0 80px;
+  }
+
+  .statistic__list {
+    width: 820px;
+    margin: 0 auto;
+  }
+
+  .statistic__item {
+    width: 230px;
+    margin-bottom: 50px;
+  }
+
+  .statistic__item::before {
+    width: 230px;
+  }
+
+  .statistic__item__text {
+    margin-top: 15px;
+  }
+
+  .home__footer {
+    max-width: 1000px;
+    padding: 0 40px;
+    margin-top: 125px;
+  }
+
+  .home__footer__request__caption {
+    font-size: 33px;
+  }
+
+  .home__footer__info {
+    max-width: 365px;
+  }
+
+  .home__footer__info__caption {
+    margin-bottom: 25px;
+
+    font-size: 33px;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 1000px) {
+  .home__intro {
+    max-width: 650px;
+    padding: 0 80px;
+
+    box-sizing: border-box;
+  }
+
+  .home__intro__top {
+    padding-top: 60px;
+    padding-bottom: 90px;
+  }
+
+  .home__intro__slider {
+    width: 225px;
+  }
+
+  .home__intro__caption {
+    width: 100%;
+    margin-bottom: 10px;
+
+    font-size: 19px;
+  }
+
+  .home__slider__item {
+    width: 100%;
+    min-height: 45px;
+
+    font-size: 12px;
+  }
+
+  .home__toggler__wrapper {
+    width: 50px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  .home__slider__toggler {
+    width: 12px;
+    height: 12px;
+  }
+
+  .home__intro__email {
+    width: 143px;
+    height: 27px;
+    padding-left: 10px;
+
+    font-size: 12px;
+  }
+
+  .home__intro__request__submit {
+    width: 105px;
+    height: 27px;
+
+    font-size: 12px;
+  }
+
+  .home__intro__image0 {
+    top: 50px;
+    right: -80px;
+
+    width: 350px;
+    height: 220px;
+
+    background-image: url('../../images/home-devices-middle.png');
+  }
+
+  .home__intro__bottom {
+    height: 280px;
+  }
+
+  .home__intro__image1 {
+    bottom: 40px;
+    left: 0px;
+
+    width: 175px;
+    height: 284px;
+
+    background-image: url('../../images/director-photo-middle.png');
+  }
+
+  .home__intro__image__background0 {
+    top: 65px;
+    left: -30px;
+
+    width: 190px;
+    height: 65px;
+    border-radius: 70px;
+  }
+
+  .home__intro__image__background1 {
+    top: 155px;
+    left: -130px;
+
+    width: 360px;
+    height: 65px;
+    border-radius: 70px;
+  }
+
+  .home__intro__image__background2 {
+    top: 255px;
+    left: -40px;
+
+    width: 265px;
+    height: 65px;
+    border-radius: 70px;
+  }
+
+  .home__intro__info {
+    max-width: 270px;
+  }
+
+  .home__intro__info__caption {
+    margin-bottom: 35px;
+
+    font-size: 14px;
+  }
+
+  .home__intro__info__text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .home__pluses {
+    width: 100%;
+    max-width: calc(100vw - 30px);
+    padding: 0;
+    padding-top: 75px;
+
+    overflow: hidden;
+  }
+
+  .pluses__caption {
+    width: 255px;
+
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .pluses__list {
+    flex-wrap: nowrap;
+  }
+
+  .pluses__item {
+    width: 220px;
+    height: 230px;
+    min-width: 220px;
+    min-height: 230px;
+
+    padding: 20px;
+    padding-top: 65px;
+
+    margin-right: 25px;
+  }
+
+  .pluses__item__caption {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .pluses__item__text {
+    font-size: 12px;
+  }
+
+  .pluses__togglers-wrapper {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 40px;
+  }
+
+  .pluses__toggler {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+
+    background: linear-gradient(104.27deg, rgba(204, 255, 0, 0.2) 11.41%, rgba(213, 255, 45, 0) 113.39%), #80CF5B;
+  }
+
+  .pluses__toggler-right {
+    margin-left: 45px;
+    transform: rotateZ(180deg);
+  }
+
+  .home__statistic {
+    max-width: 650px;
+    padding: 0 80px;
+    box-sizing: border-box;
+  }
+
+  .statistic__item {
+    width: 140px;
+    margin-bottom: 70px;
+  }
+
+  .statistic__item::before {
+    top: 10px;
+    width: 100%;
+    height: 10px;
+  }
+
+  .statistic__item__caption {
+    font-size: 18px;
+  }
+
+  .statistic__item__text {
+    width: 106px;
+    margin-top: 10px;
+
+    font-size: 12px;
+  }
+
+  .home__footer {
+    max-width: 650px;
+    padding: 0 25px;
+    box-sizing: border-box;
+
+    margin-bottom: 50px;
+  }
+
+  .home__footer__request__caption {
+    font-size: 18px;
+  }
+
+  .home__footer__info {
+    max-width: 235px;
+  }
+
+  .home__footer__info__caption {
+    margin-bottom: 25px;
+    font-size: 18px;
+  }
+
+  .home__footer__info__text {
+    font-size: 12px;
+    line-height: 13px;
+  }
+}
